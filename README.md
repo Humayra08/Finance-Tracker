@@ -17,9 +17,11 @@ A lightweight Windows Forms desktop application for tracking personal income and
 
 Personal Finance Tracker is a single-window desktop application that lets users log income and expense transactions, view real-time financial summaries, and manage their transaction history — all without a database. Data is held in memory for the duration of the session, making it a clean, self-contained example of Windows Forms development in C#.
 
-## Interface
+## Interface Preview
 
-![Personal Finance Tracker interface](Finance%20Tracker/Screenshot/Intterface.png)
+<p align="center">
+  <img src="Finance Tracker/Screenshot/Intterface.png" alt="Personal Finance Tracker Interface" width="900">
+</p>
 
 ## Features
 
@@ -37,5 +39,4 @@ Personal Finance Tracker is a single-window desktop application that lets users 
 
 - **Language:** C#
 - **Framework:** .NET 8 — Windows Forms
-- **UI Approach:** Fully code-driven layout (no Designer drag-and-drop), including custom `RoundedPanel` and `RoundedButton` controls for a modern card-based interface
 - **Data Layer:** In-memory `List<Transaction>` — no database or external file dependencies
