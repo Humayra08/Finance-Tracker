@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System;
 
 namespace Finance_Tracker
 {
-    internal class Transaction
+    public class Transaction
     {
+        public DateTime Date { get; set; }
+        public string Type { get; set; }      // "Income" or "Expense"
+        public string Category { get; set; }
+        public decimal Amount { get; set; }
+        public string Notes { get; set; }
     }
 }
